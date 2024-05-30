@@ -34,3 +34,7 @@
 
 2客户端与nginx tcp负载均衡相连，故客户端 ./ChatClient 127.0.0.1 8000  //这里需要给nginx.conf配置tcp负载均衡，这里的端口设为8000
 
+
+#注意问题 
+1. 在运行前，需要保证你的nginx开着，redis-server开着，这里的nginx应该是8000对应的端口开着，redis应该是
+
